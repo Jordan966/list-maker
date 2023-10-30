@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <title>List Maker</title>
+</head>
+<body>
+    <h1>List Maker &#x1f4dd;</h1>
+    <!-- Flex => direction column to make 'li' elements generate as a column. -->
+    <div class="container">
+        <!-- Allows the text field and button to sit next to eachother. -->
+        <div id="inputContainer">
+            <input type="text" id="userInput" placeholder="Type list item here">
+            <button id="submitButton">Add Item</button>
+        </div>
+
+        <div id="listContainer">
+            <ul id="listItems"></ul>
+        </div>
+    </div>
+</body>
+</html>

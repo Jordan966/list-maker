@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Patrick Hand', cursive;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 5rem;
+    color: rgb(69, 69, 69);
+}
+
+.container {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #0000000f;
+    border-radius: 25px;
+    padding: 80px;
+    background: #f9f9f9;
+}
+
+#input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#listContainer {
+    margin-top: 15px;
+}
+
+#listItems {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px 0px;
+    border: 3px solid rgb(56, 55, 55);
+    border-radius: 10px;
+    font-size: 2rem;
+    background-color: rgb(255, 255, 255);
+}
+
+li span {
+    display: inline;
+}
+
+span {
+    color: rgb(255, 51, 51);
+}
+
+input {
+    font-size: 2rem;
+    border: 5px solid rgb(209 209 209);
+    font-family: monospace;
+    margin-right: 20px;
+    background-color: aliceblue;
+}
+
+button {
+    font-size: 2rem;
+    background: #3cd0ff;
+    font-family: monospace;
+    border: 5px solid #4bc7d4;
+}
+
+ul {
+    font-family: monospace;
+}
